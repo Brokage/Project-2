@@ -1,0 +1,52 @@
+body {
+    position: relative;
+    width: 50%;
+    background-color: lightblue;
+    margin: 0 auto;
+    margin-top: 75px;
+    
+}
+h1{
+    border-bottom: outset darkblue;
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: 600;
+}
+#taskText {
+    width: 360px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+    
+}
+
+#submitButton{
+    border: 2px outset black ; 
+    border-radius: 3px;
+    padding: 4px;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+}
+li {
+    max-width: 360px;
+    list-style-type: none;
+    background-color: whitesmoke;
+    border: 2px inset black;
+    margin-bottom: 3px;
+    padding:7px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+
+.remove {
+    background-color: red;
+    font-weight: 600;
+    position: static;
+}
+.done {
+    background-color: green;
+    font-weight: 600;
+}
